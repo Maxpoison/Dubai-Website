@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title>Dubai</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link href="fontawesome/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header id="header">
+		
+<div id="headerTop">
+<div class="wrapper">
+			 
+	<div id="headerTopLeft">
+	
+	<span>
+	<i class="fa fa-phone" aria-hidden="true"></i>
+	&nbsp;&nbsp;
+	012.345.678.987
+	</span>
+	
+	<span>
+	<i class="fa fa-envelope" aria-hidden="true"></i>
+	&nbsp;&nbsp;
+	info@dubai.com
+	</span>
+	</div><!--end #headerTopLeft-->
+				
+	<div id="headerTopRight">
+	
+		<a href="https://www.facebook.com/visitdubai/" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+				
+		<a href="https://twitter.com/hashtag/dubai" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+		
+		<a href="https://www.linkedin.com/company/jobs-in-dubai-inc" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+		
+		<a href="https://www.youtube.com/watch?v=3gQw-8Iu-8k" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+	</div><!--end #headerTopRight-->
+				 
+</div><!-- end .wrapper -->
+</div><!-- end #headerTop -->
+		
+	<div id="headerBottom">
+	<div class="wrapper">
+				
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.jpg" alt="dubai"></a>
+		</div><!--end #logo-->
+				
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="records.html">records</a></li>
+				<div class="dropdown">
+					<button class="dropbtn"><a class="navig" href="hotels.html">Hotels&#9660;</a></button>
+				<div class="dropdown-content">
+					 <a href="burjalarab.html">Burj Al Arab</a>
+    				 <a href="madinat.html">Madinat Jumeirah</a>
+    				 <a href="shangrila.html">Shangri-La</a>
+    				 <a href="palmisland.html">Palm Island</a>
+    				 <a href="burjkhalifa.html">Burj Khalifa</a>
+    				
+				</div><!--end .dropdown-content-->
+				</div><!--end .dropdown-->
+				
+				<li><a href="activities.html">activities</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+		</nav><!--end #nav-->
+				
+	</div><!-- end .wrapper -->
+	</div><!-- end #headerBottom -->
+</header><!-- end #header -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/Burj-Al-Arab-Terrace-Aerial.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/dubai-37075265-1494255242-ImageGalleryLightboxLarge.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/dubai-overview-1400x788-1-0ad9_1400x788.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/hero.desktop.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/one-and-only-royal-mirage-activities-dubai-sightseeing.jpg" style="width:100%">
+</div>
+
+</div><!--end .slideshow-container-->
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); 
+}
+</script>
+
+<div id="activities">
+	<div class="wrapper">
+		<h1>dubai activities &amp; attractions</h1>
+		
+									<h2>Dubai Aquarium</h2>
+						
+		<p>Dubai Aquarium in The Dubai Mall, is the holder of the Guinness World Record for the 'World's Largest Acrylic Panel'. It is one of the largest tourist attractions and Dubai and is also one of the largest aquariums in the world.</p>
+		
+		<div class="galleryActivities">
+  <a target="_blank" href="images/aquarium/aquarium1.jpg">
+    <img src="images/aquarium/aquarium1.jpg" alt="aquarium" width="400" height="200">
+  </a>
+  <div class="desc">1/4</div>
+</div>
+
+<div class="galleryActivities">
+  <a target="_blank" href="images/aquarium/aquarium2.jpg">
+    <img src="images/aquarium/aquarium2.jpg" alt="aquarium" width="400" height="200">
+  </a>
+  <div class="desc">2/4</div>
+</div>
+
+<div class="galleryActivities">
+  <a target="_blank" href="images/aquarium/aquarium3.jpg">
+    <img src="images/aquarium/aquarium3.jpg" alt="aquarium" width="400" height="200">
+  </a>
+  <div class="desc">3/4</div>
+</div>
+
+<div class="galleryActivities">
+  <a target="_blank" href="images/aquarium/aquarium4.jpg">
+    <img src="images/aquarium/aquarium4.jpg" alt="aquarium" width="400" height="200">
+  </a>
+  <div class="desc">4/4</div>
+</div>
+
+									<h2>Dubai Miracle Garden</h2>
+						
+		<p>The Dubai Miracle Garden is a flower garden located in the district of Dubailand, Dubai, United Arab Emirates. The garden was launched on valentine's day in 2013. The garden occupies over 72,000 square metres (780,000 sq ft), making it the world's largest natural flower garden featuring over 109 million flowers planted. In April 2015, the garden was awarded the Moselle Award for New Garden Experiences of the year by the Garden Tourism Award 2015.</p>
+
+	<div class="galleryActivities">
+  <a target="_blank" href="images/miracle garden/miracle1.jpg">
+    <img src="images/miracle garden/miracle1.jpg" alt="miracle" width="400" height="200">
+  </a>
+  <div class="desc">1/4</div>
+</div>
+
+<div class="galleryActivities">
+  <a target="_blank" href="images/miracle garden/miracle2.jpg">
+    <img src="images/miracle garden/miracle2.jpg" alt="miracle" width="400" height="200">
+  </a>
+  <div class="desc">2/4</div>
+</div>
+
+<div class="galleryActivities">
+  <a target="_blank" href="images/miracle garden/miracle3.jpg">
+    <img src="images/miracle garden/miracle3.jpg" alt="miracle" width="400" height="200">
+  </a>
+  <div class="desc">3/4</div>
+</div>
+
+<div class="galleryActivities">
+  <a target="_blank" href="images/miracle garden/miracle4.jpg">
+    <img src="images/miracle garden/miracle4.jpg" alt="miracle" width="400" height="200">
+  </a>
+  <div class="desc">4/4</div>
+</div>
+
+										<h2>Dubai Mall</h2>
+							
+	<p>The Dubai Mall is a shopping mall in Dubai and the largest mall in the world by total area. It is the nineteenth largest shopping mall in the world by gross leasable area. Located in Dubai, United Arab Emirates, it is part of the 20-billion-dollar Downtown complex, and includes 1,200 shops. In 2011 it was the most visited building on the planet, attracting over 54 million visitors each year. Access to the mall is provided via Doha Street, rebuilt as a double-decker road in April 2009.<br><br>Twice delayed, Dubai Mall opened on 4 November 2008, with about 1000 retailers, marking the world's second largest-ever mall opening in retail history behind West Edmonton Mall. However it is not the largest in gross leasable space, and is surpassed in that category by several malls including the New South China Mall, which is the world's largest, albeit largely derelict, Golden Resources Mall, SM City North Edsa, and SM Mall of Asia.</p>
+		
+	<div class="galleryActivities">
+  <a target="_blank" href="images/dubai mall/mall1.JPG">
+    <img src="images/dubai mall/mall1.JPG" alt="mall" width="400" height="200">
+  </a>
+  <div class="desc">1/4</div>
+</div>
+
+<div class="galleryActivities">
+  <a target="_blank" href="images/dubai mall/mall2.jpg">
+    <img src="images/dubai mall/mall2.jpg" alt="mall" width="400" height="200">
+  </a>
+  <div class="desc">2/4</div>
+</div>
+
+<div class="galleryActivities">
+  <a target="_blank" href="images/dubai mall/mall3.jpg">
+    <img src="images/dubai mall/mall3.jpg" alt="mall" width="400" height="200">
+  </a>
+  <div class="desc">3/4</div>
+</div>
+
+<div class="galleryActivities">
+  <a target="_blank" href="images/dubai mall/mall4.jpg">
+    <img src="images/dubai mall/mall4.jpg" alt="mall" width="400" height="200">
+  </a>
+  <div class="desc">4/4</div>
+</div>	
+		
+		
+	</div>
+</div><!--end #activities-->
+
+<footer id="footer">
+<div class="wrapper">
+
+	<h1><a href="index.html">Dubai</a></h1>
+	
+	<p>Copyright @ ITAcademy // Zdravkovic Aleksandar <a href="#">privacy</a> / <a href="#">cookie policy</a></p>
+	
+	<a href="#top" class="btn">back to top</a>
+	
+</div>
+</footer><!--end #footer-->
+
+</body>
+</html>

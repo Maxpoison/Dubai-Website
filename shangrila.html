@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title>Dubai</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link href="fontawesome/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header id="header">
+		
+<div id="headerTop">
+<div class="wrapper">
+			 
+	<div id="headerTopLeft">
+	
+	<span>
+	<i class="fa fa-phone" aria-hidden="true"></i>
+	&nbsp;&nbsp;
+	012.345.678.987
+	</span>
+	
+	<span>
+	<i class="fa fa-envelope" aria-hidden="true"></i>
+	&nbsp;&nbsp;
+	info@dubai.com
+	</span>
+	</div><!--end #headerTopLeft-->
+				
+	<div id="headerTopRight">
+	
+		<a href="https://www.facebook.com/visitdubai/" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+				
+		<a href="https://twitter.com/hashtag/dubai" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+		
+		<a href="https://www.linkedin.com/company/jobs-in-dubai-inc" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+		
+		<a href="https://www.youtube.com/watch?v=3gQw-8Iu-8k" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+	</div><!--end #headerTopRight-->
+				 
+</div><!-- end .wrapper -->
+</div><!-- end #headerTop -->
+		
+	<div id="headerBottom">
+	<div class="wrapper">
+				
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.jpg" alt="dubai"></a>
+		</div><!--end #logo-->
+				
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="records.html">records</a></li>
+				<div class="dropdown">
+					<button class="dropbtn"><a class="navig" href="hotels.html">Hotels&#9660;</a></button>
+				<div class="dropdown-content">
+					 <a href="burjalarab.html">Burj Al Arab</a>
+    				 <a href="madinat.html">Madinat Jumeirah</a>
+    				 <a href="shangrila.html">Shangri-La</a>
+    				 <a href="palmisland.html">Palm Island</a>
+    				 <a href="burjkhalifa.html">Burj Khalifa</a>
+    				
+				</div><!--end .dropdown-content-->
+				</div><!--end .dropdown-->
+				
+				<li><a href="activities.html">activities</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+		</nav><!--end #nav-->
+				
+	</div><!-- end .wrapper -->
+	</div><!-- end #headerBottom -->
+</header><!-- end #header -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/Burj-Al-Arab-Terrace-Aerial.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/dubai-37075265-1494255242-ImageGalleryLightboxLarge.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/dubai-overview-1400x788-1-0ad9_1400x788.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/hero.desktop.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/one-and-only-royal-mirage-activities-dubai-sightseeing.jpg" style="width:100%">
+</div>
+
+</div><!--end .slideshow-container-->
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); 
+}
+</script>
+
+<div class="burjAlArab">
+	<div class="wrapper">
+		<h1>Shangri-La</h1>
+				
+		<div class="galleryHotels">
+  		<a target="_blank" href="images/shangri-la/50973469.jpg">
+   		<img src="images/shangri-la/50973469.jpg" width="400" height="200">
+  		</a>
+		</div>
+		<h2>About hotel</h2>		
+		<p>Shangri-La Hotel, Dubai, offers 302 luxuriously appointed rooms and suites, as well as an exclusive Horizon Club with special benefits. The hotel is located only 15 minutes from Dubai International Airport and five minutes from the World Trade Centre, Dubai International Financial Centre, Downtown Dubai and Burj Khalifa.<br><br>Visitors are spoilt for choice when it comes to dining. Take an inspiring culinary journey through Asia, Europe, India and South America. Whether you are seeking rest and relaxation or sports and recreation, Shangri-La Hotel, Dubai, has the facilities and services to ensure total satisfaction. Relax and rejuvenate in the tranquil waters of the swimming pool, or take a breath and unwind at CHI, The Spa at Shangri-La</p>
+		
+		<div class="galleryHotels">
+  		<a target="_blank" href="images/shangri-la/elegant-modern-patio-pool.jpg">
+   		<img src="images/shangri-la/elegant-modern-patio-pool.jpg" alt="shangrila" width="400" height="200">
+  		</a>
+		</div>
+		<h2>Managment</h2>
+		<p>The comfort of your stay is guaranteed by our executive staff. Feel free to contact one of our executives for more information about Shangri-La Hotel, Dubai.</p>
+		
+		<div class="galleryHotels">
+  		<a target="_blank" href="images/shangri-la/SLDB_Homepage_images_1.jpg">
+   		<img src="images/shangri-la/SLDB_Homepage_images_1.jpg" alt="shangrila" width="400" height="200">
+  		</a>
+		</div>
+		<h2>Trainees</h2>
+		<p>Shangri-La Hotel, Dubai is working with four trainees from the UAE Down Syndrome Association (UAEDSA).  The four colleagues work in various departments, including training, engineering, culinary and housekeeping.  Each trainee is accompanied by an occupational therapist with the aim of learning new skills and gaining valuable career experience in the hospitality industry.</p>
+		
+		<div class="galleryHotels">
+  		<a target="_blank" href="images/shangri-la/SLDB-Bg-Presidential-Suite.jpg">
+   		<img src="images/shangri-la/SLDB-Bg-Presidential-Suite.jpg" width="400" height="200">
+  		</a>
+		</div>
+	</div>
+</div><!--end #burjAlArab-->
+
+<footer id="footer">
+<div class="wrapper">
+
+	<h1><a href="index.html">Dubai</a></h1>
+	
+	<p>Copyright @ ITAcademy // Zdravkovic Aleksandar <a href="#">privacy</a> / <a href="#">cookie policy</a></p>
+	
+	<a href="#top" class="btn">back to top</a>
+	
+</div>
+</footer><!--end #footer-->
+
+</body>
+</html>

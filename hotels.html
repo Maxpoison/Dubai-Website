@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title>Dubai</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link href="fontawesome/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header id="header">
+		
+<div id="headerTop">
+<div class="wrapper">
+			 
+	<div id="headerTopLeft">
+	
+	<span>
+	<i class="fa fa-phone" aria-hidden="true"></i>
+	&nbsp;&nbsp;
+	012.345.678.987
+	</span>
+	
+	<span>
+	<i class="fa fa-envelope" aria-hidden="true"></i>
+	&nbsp;&nbsp;
+	info@dubai.com
+	</span>
+	</div><!--end #headerTopLeft-->
+				
+	<div id="headerTopRight">
+	
+		<a href="https://www.facebook.com/visitdubai/" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+				
+		<a href="https://twitter.com/hashtag/dubai" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+		
+		<a href="https://www.linkedin.com/company/jobs-in-dubai-inc" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+		
+		<a href="https://www.youtube.com/watch?v=3gQw-8Iu-8k" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+	</div><!--end #headerTopRight-->
+				 
+</div><!-- end .wrapper -->
+</div><!-- end #headerTop -->
+		
+	<div id="headerBottom">
+	<div class="wrapper">
+				
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.jpg" alt="dubai"></a>
+		</div><!--end #logo-->
+				
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="records.html">records</a></li>
+				<div class="dropdown">
+					<button class="dropbtn"><a class="navig" href="hotels.html">Hotels&#9660;</a></button>
+				<div class="dropdown-content">
+					 <a href="burjalarab.html">Burj Al Arab</a>
+    				 <a href="madinat.html">Madinat Jumeirah</a>
+    				 <a href="shangrila.html">Shangri-La</a>
+    				 <a href="palmisland.html">Palm Island</a>
+    				 <a href="burjkhalifa.html">Burj Khalifa</a>
+    				
+				</div><!--end .dropdown-content-->
+				</div><!--end .dropdown-->
+				
+				<li><a href="activities.html">activities</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+		</nav><!--end #nav-->
+				
+	</div><!-- end .wrapper -->
+	</div><!-- end #headerBottom -->
+</header><!-- end #header -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/Burj-Al-Arab-Terrace-Aerial.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/dubai-37075265-1494255242-ImageGalleryLightboxLarge.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/dubai-overview-1400x788-1-0ad9_1400x788.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/hero.desktop.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/one-and-only-royal-mirage-activities-dubai-sightseeing.jpg" style="width:100%">
+</div>
+
+</div><!--end .slideshow-container-->
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); 
+}
+</script>
+
+<div id="famousHotels">
+	<div class="wrapper">
+		<h1>Our famous hotels</h1>
+		
+			<img src="images/al-qasr li.jpg" alt="al qasr">
+			<p>Madinat Jumeirah the Arabian Resort - Dubai, is a luxurious 5 star resort in Dubai and is also the largest resort in the emirate, spreading across over 40 hectares of landscapes and gardens. It is designed to resemble a traditional Arabian town. The resort comprises three boutique hotels (Al Qasr, Mina A'Salam, and Al Naseem) and a courtyard of 29 summer houses called Dar Al Masyaf. The resort has over 40 restaurants and bars.</p>
+			<p><a href="madinat.html">Read more &raquo;</a></p>
+		
+			<img src="images/burj-al-arab li.jpg" alt="burj al arab">
+			<p>The Burj al-Arab (Arabic: Tower of the Arabs) is a luxury hotel located in Dubai, United Arab Emirates. It is the third tallest hotel in the world (although 39% of its total height is made up of non-occupiable space). Burj Al Arab stands on an artificial island 280 m (920 ft) from Jumeirah beach and is connected to the mainland by a private curving bridge. The shape of the structure is designed to mimic the sail of a ship. It has a helipad near the roof at a height of 210 m (689 ft) above ground.</p>
+			<p><a href="burjalarab.html">Read more &raquo;</a></p>
+			
+			<img src="images/Burj-Khalifa li.jpg" alt="burj khalifa">
+			<p>The Burj Khalifa (Arabic: Arabic for "Khalifa Tower"), known as the Burj Dubai before its inauguration, is a megatall skyscraper in Dubai, United Arab Emirates. With a total height of 829.8 m (2,722 ft) including the antenna and a roof height of 828 m (2,717 ft), the Burj Khalifa is currently the tallest structure in the world since topping out in late 2008.Construction of the Burj Khalifa began in 2004, with the exterior completed 5 years later in 2009.</p>
+			<p><a href="burjkhalifa.html">Read more &raquo;</a></p>
+			
+			<img src="images/palm-island li.jpg" alt="palm island">
+			<p>Palm Islands are three artificial islands, Palm Jumeirah, Deira Island and Palm Jebel Ali, on the coast of Dubai, United Arab Emirates. Creation of the islands started in 2001. As of November 2014, only Palm Jumeirah has been completed. This island takes the form of a palm tree, topped by a crescent. After completion, Palm Jebel Ali will take a similar shape. Like Palm Jumeirah, each island will be host to a large number of residential, leisure and entertainment centers and will add a total of 520 kilometers of non-public beaches to the city of Dubai.</p>
+			<p><a href="palmisland.html">Read more &raquo;</a></p>
+			
+			<img src="images/Shangri-La-Hotel-Dubai li.jpg" alt="shangri la">
+			<p>The Shangri-La Hotel is a 43-floor hotel tower in Dubai, United Arab Emirates.[1] The tower has a total structural height of 200 m. Construction of the Shangri-La Hotel was completed in July, 2003. It was built by South African construction firm Murray and Roberts.</p>
+			<p><a href="shangrila.html">Read more &raquo;</a></p>
+			
+	</div>
+</div><!--end #famousHotels-->
+
+<footer id="footer">
+<div class="wrapper">
+
+	<h1><a href="index.html">Dubai</a></h1>
+	
+	<p>Copyright @ ITAcademy // Zdravkovic Aleksandar <a href="#">privacy</a> / <a href="#">cookie policy</a></p>
+	
+	<a href="#top" class="btn">back to top</a>
+	
+</div>
+</footer><!--end #footer-->
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title>Dubai</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link href="fontawesome/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header id="header">
+		
+<div id="headerTop">
+<div class="wrapper">
+			 
+	<div id="headerTopLeft">
+	
+	<span>
+	<i class="fa fa-phone" aria-hidden="true"></i>
+	&nbsp;&nbsp;
+	012.345.678.987
+	</span>
+	
+	<span>
+	<i class="fa fa-envelope" aria-hidden="true"></i>
+	&nbsp;&nbsp;
+	info@dubai.com
+	</span>
+	</div><!--end #headerTopLeft-->
+				
+	<div id="headerTopRight">
+	
+		<a href="https://www.facebook.com/visitdubai/" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+				
+		<a href="https://twitter.com/hashtag/dubai" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+		
+		<a href="https://www.linkedin.com/company/jobs-in-dubai-inc" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+		
+		<a href="https://www.youtube.com/watch?v=3gQw-8Iu-8k" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+	</div><!--end #headerTopRight-->
+				 
+</div><!-- end .wrapper -->
+</div><!-- end #headerTop -->
+		
+	<div id="headerBottom">
+	<div class="wrapper">
+				
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.jpg" alt="dubai"></a>
+		</div><!--end #logo-->
+				
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="records.html">records</a></li>
+				<div class="dropdown">
+					<button class="dropbtn"><a class="navig" href="hotels.html">Hotels&#9660;</a></button>
+				<div class="dropdown-content">
+					 <a href="burjalarab.html">Burj Al Arab</a>
+    				 <a href="madinat.html">Madinat Jumeirah</a>
+    				 <a href="shangrila.html">Shangri-La</a>
+    				 <a href="palmisland.html">Palm Island</a>
+    				 <a href="burjkhalifa.html">Burj Khalifa</a>
+    				
+				</div><!--end .dropdown-content-->
+				</div><!--end .dropdown-->
+				
+				<li><a href="activities.html">activities</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+		</nav><!--end #nav-->
+				
+	</div><!-- end .wrapper -->
+	</div><!-- end #headerBottom -->
+</header><!-- end #header -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/Burj-Al-Arab-Terrace-Aerial.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/dubai-37075265-1494255242-ImageGalleryLightboxLarge.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/dubai-overview-1400x788-1-0ad9_1400x788.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/hero.desktop.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/one-and-only-royal-mirage-activities-dubai-sightseeing.jpg" style="width:100%">
+</div>
+
+</div><!--end .slideshow-container-->
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); 
+}
+</script>
+
+<div id="address">
+	<div class="wrapper">
+		<h1>Address</h1>
+		
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4000.4088259503005!2d20.402959894702594!3d44.847712498361695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a65b17b627421%3A0x6d6130bffc362462!2sITAcademy!5e0!3m2!1ssr!2srs!4v1500739035397" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+		
+		<p>&#9992;Address: Cara Dušana 34, Beograd 11080<br>
+		&#x2709;Email: info@email.com<br>
+		&#9742;Tel: 012 345 6789</p><br>
+		
+		<h1>Contact us</h1>
+		
+	<div class="container">
+ <div class="wrapper">
+  <form action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+     <option value="serbia">Serbia</option>
+     <option value="england">England</option>
+     <option value="mexico">Mexico</option>
+     <option value="germany">Germany</option>
+     <option value="russia">Russia</option>
+     <option value="polland">Polland</option>
+     <option value="spain">Spain</option>
+     <option value="portugal">Portugal</option>
+     <option value="italy">Italy</option>
+     <option value="hungary">Hungary</option>
+     <option value="romania">Romania</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+		</div>
+		</div><!--end .container-->
+	</div>
+</div><!--end #address-->
+
+<footer id="footer">
+<div class="wrapper">
+
+	<h1><a href="index.html">Dubai</a></h1>
+	
+	<p>Copyright @ ITAcademy // Zdravkovic Aleksandar <a href="#">privacy</a> / <a href="#">cookie policy</a></p>
+	
+	<a href="#top" class="btn">back to top</a>
+	
+</div>
+</footer><!--end #footer-->
+
+</body>
+</html>

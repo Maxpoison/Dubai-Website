@@ -1,0 +1,1206 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+	color: #363636;
+	font-weight: 300;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#headerTop {
+	background: #363636;
+	color: #898989;
+	font-size: 16px;
+	height: 30px;
+}
+
+#headerTopLeft {
+	float: left;
+}
+
+#headerTopLeft span {
+	margin-right: 40px;
+}
+
+#headerTopRight {
+	float: right;
+}
+
+#headerTopRight a {
+	color: aliceblue;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#headerTopRight a:hover {
+	color: red;
+}
+
+#headerBottom {
+	height: 160px;
+	background: #FFF;
+}
+
+#logo {
+	float: left;
+}
+
+#logo img {
+	height: 150px;
+	width: 200px;
+	margin-left: 50px;
+}
+
+#nav {
+	float: right;
+	height: 154px;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+	font-size: 22px;
+	display: block;
+	line-height: 40px;
+	padding: 60px 40px;
+}
+
+#nav ul li a:hover {
+	color: #FF0004;
+	background: rgba(62,163,175,0.25);
+}
+
+.dropbtn {
+    font-size: 24px;
+    border: none;
+	border-color: none;
+    cursor: pointer;
+	background: none;
+}
+
+.dropbtn .navig {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+	font-size: 24px;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	line-height: 40px;
+	padding: 60px 40px;
+}
+
+.dropbtn .navig:hover {
+	color: #FF0004;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 24px;
+	display: block;
+	line-height: 40px;
+	padding: 60px 40px;
+}
+
+.dropdown a:hover {
+	color: #FF0004;
+	background: rgba(62,163,175,0.25);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    min-width: 250px;
+    z-index: 1;
+	padding: 0;
+	border: 1px solid rgba(0,0,0,1.00);
+}
+
+.dropdown-content a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+	margin: 0;
+	font-size: 18px;
+	padding: 10px;
+	text-align: center;
+}
+
+.dropdown-content a:hover {
+	background: #CCC;
+	color: #FF0004;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.button {
+	text-decoration: none;
+    border: 1px solid #00DBFF;
+    border-radius: 20px;
+    color: aqua;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 17px 33px 15px;
+	margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.button:hover {
+	background: #000000;
+	color: red;
+	border: 1px solid #000000;
+}
+
+#hero {
+	background-image: url(images/main.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px 0;
+	text-align: center;
+	border-top:  5px solid rgba(0,0,0,1.00);
+	border-bottom: 5px solid rgba(0,0,0,1.00);
+}
+
+#hero h1 {
+	letter-spacing: 30px;
+	font-size: 48px;
+	color: #000000;
+}
+
+#hero p {
+	letter-spacing: 2px;
+	font-size: 18px;
+	color: #000000;
+}
+
+#aboutDubai {
+	background: #272727;
+	margin: 0;
+	padding: 0;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+#aboutDubai h1 {
+	color: #FFF;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	width: 300px;
+	font-size: 42px;
+	margin-left: 450px;
+	margin-right: 300px;
+}
+
+#aboutDubai p {
+	color: #D4D88B;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+#aboutDubai a {
+	color: red;
+	text-decoration: none;
+}
+
+#aboutDubai a:hover {
+	color: #00FF3C;
+}
+
+
+#aboutBottom {
+	background: url(images/mainbottom.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 300px 0;
+	text-align: center;
+	margin-top: 5px;
+	border-top:  5px solid rgba(0,0,0,1.00);
+	border-bottom: 5px solid rgba(0,0,0,1.00);
+}
+
+#aboutText {
+	background: #272727;
+	margin: 0;
+	padding: 0;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+#aboutText p {
+	color: #D4D88B;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+#aboutText a {
+	color: red;
+	text-decoration: none;
+}
+
+#aboutText a:hover {
+	color: #00FF3C;
+}
+
+#partner {
+	background: #272727;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+#partner h2 {
+	color: #FFF;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	width: 400px;
+	font-size: 38px;
+	margin-left: 400px;
+	margin-right: 300px;
+	text-transform: uppercase;
+}
+
+.partners {
+	float: left;
+}
+
+.partners img {
+	margin-left: 80px;
+	border-radius: 20px;
+}
+
+.pOne p {
+	width: 300px;
+	float: left;
+	color: #D4D88B;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 80px;
+
+}
+
+.pOne a {
+	text-decoration: none;
+	color: red;
+}
+
+.pOne a:hover {
+	color: #00FF3C;
+}
+
+.pTwo p {
+	width: 300px;
+	float: left;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+.pTwo a {
+	text-decoration: none;
+	color: red;
+}
+
+.pTwo a:hover {
+	color: #00FF3C;
+}
+
+.pThree p {
+	width: 300px;
+	float: left;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 85px;
+}
+
+.pThree a {
+	text-decoration: none;
+	color: red;
+}
+
+.pThree a:hover {
+	color: #00FF3C;
+}
+
+#footer {
+	margin: 0;
+	padding: 0;
+	background: #000;
+	overflow: hidden;
+}
+
+#footer h1 {
+	float: left;
+	color: #0063CB;
+	width: 150px;
+	font-size: 48px;
+	letter-spacing: 5px;
+	border-right: 1px solid rgba(255,255,255,1.00);
+}
+
+#footer h1 a {
+	text-decoration: none;
+	color: #8B5D1B;
+}
+
+#footer h1 a:hover {
+	color: #6C21AC;
+}
+
+#footer p {
+	font-size: 16px;
+	color: #FFF;
+	float: left;
+	margin-left: 250px;
+	margin-top: 60px;
+}
+
+.btn {
+	text-decoration: none;
+    border: 1px solid #00DBFF;
+    border-radius: 20px;
+    color: aqua;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 17px 33px 15px;
+	margin: 50px 100px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+	color: red;
+	background: #FFF;
+}
+
+* {box-sizing:border-box}
+
+.mySlides {
+	display: none;
+	border-top: 5px solid rgba(0,0,0,1.00);
+	margin-top: 2px;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#famousHotels {
+	background: #272727;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+
+#famousHotels h1 {
+	color: #FFF;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	width: 400px;
+	font-size: 48px;
+	margin-left: 400px;
+	margin-right: 300px;
+	text-transform: uppercase;
+}
+
+#famousHotels img {
+	float: left;
+	margin-bottom: 70px;
+	border: 1px solid #FFF;
+	border-radius: 20px;
+}
+
+#famousHotels p {
+	float: right;
+	width: 500px;
+	color: #D4D88B;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-right: 200px;
+}
+
+#famousHotels a {
+	display: block;
+	border-radius: 40px;
+	border: 1px solid #D4D88B;
+	float: right;
+	font-size: 16px;
+	color: red;
+	text-decoration: none;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+#famousHotels a:hover {
+	background: #6C21AC;
+	color: #FFF;
+	border: 1px solid #6C21AC;
+}
+
+.burjAlArab {
+	background: #272727;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+
+.burjAlArab h1 {
+	color: #FFF;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	width: 400px;
+	font-size: 48px;
+	margin-left: 400px;
+	margin-right: 300px;
+	text-transform: uppercase;
+}
+
+.burjAlArab h2 {
+	text-align: center;
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+	width: 400px;
+	font-size: 28px;
+	margin-right: 700px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.burjAlArab p {
+	color: #D4D88B;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.galleryHotels img {
+	overflow: hidden;
+	height: 300px;
+	width: 800px;
+	margin-left: 200px;
+	margin-bottom: 50px;
+	border: 5px solid #FFF;
+	border-radius: 20px;
+}
+
+.galleryHotels img:hover {
+	color: #FFF;
+	opacity: 0.8;
+}
+
+#activities {
+	background: #272727;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+
+#activities h1 {
+	color: #FFF;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	width: 500px;
+	font-size: 38px;
+	margin-left: 350px;
+	margin-right: 300px;
+	text-transform: uppercase;
+}
+
+#activities h2 {
+	margin-left: 40px;
+	color: #FFF;
+	width: 400px;
+	font-size: 28px;
+	margin-right: 700px;
+	margin-bottom: 30px;
+}
+
+#activities p {
+	color: #D4D88B;
+	font-size: 18px;
+	margin-left: 40px;
+}
+
+.galleryActivities {
+    margin: 5px 5px 30px 40px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 250px;
+}
+
+.galleryActivities:hover {
+    border: 3px solid #777;
+}
+
+.galleryActivities img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+	color: #FFF;
+    padding: 15px;
+    text-align: center;
+}
+
+#records {
+	background: #272727;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	overflow: hidden;
+	margin-bottom: 2px;
+}
+
+#records h1 {
+	color: #FFF;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	width: 400px;
+	font-size: 48px;
+	margin-left: 400px;
+	margin-right: 300px;
+	text-transform: uppercase;
+}
+
+#records h2 {
+	color: #FFF;
+	width: 400px;
+	font-size: 24px;
+}
+
+#records video {
+	width: 600px;
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+#records p {
+	float: right;
+	color: #D4D88B;
+	font-size: 18px;
+	width: 400px;
+	padding-top: 70px;
+	margin-right: 100px;
+}
+
+#address {
+	background: #272727;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	overflow: hidden;
+	margin-bottom: 2px;
+}
+
+#address h1 {
+	color: #FFF;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	width: 400px;
+	font-size: 48px;
+	margin-left: 400px;
+	margin-right: 300px;
+	text-transform: uppercase;
+}
+
+#address p {
+	float: right;
+	width: 400px;
+	font-size: 18px;
+	color: #D4D88B;
+	line-height: 100px;
+	padding-left: 40px;
+	word-spacing: 5px;
+	
+}
+
+#address iframe {
+	margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FFFFFF;
+	color: red;
+}
+
+.container {
+	margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+	margin-bottom: 30px;
+	color: aqua; 
+	font-size: 20px;
+	height: auto;
+}	
+
+#contactus h1 {
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: darkcyan;
+	border-bottom: 1px solid #FFFFFF;
+	width: 600px;
+	margin-left: 300px;
+	float: left;
+	margin-bottom: 50px;
+	margin-right: 300px;
+}
+
+.container h2 {
+	margin-top: 60px;
+	color: darkcyan;
+	text-transform: uppercase;
+	border-bottom: 1px solid #FFFFFF;
+	margin-bottom: 20px;
+	width: 300px;
+	padding-bottom: 10px;
+	margin-right: 0;
+	float: left;
+}
+
+.container p {
+	width: 350px;
+	margin: 0;
+	float: left;
+	position: relative;
+	right: 300px;
+	bottom: -100px;
+}
+
+/* manji racunari */
+@media screen and (min-width:1024px) and (max-width:1260px) {
+	.wrapper {
+		width: 80%;
+	}
+	#nav ul li a {
+		font-size: 18px;
+		padding: 60px 15px;
+	}
+	.dropbtn .navig {
+		font-size: 18px;
+		padding: 60px 15px;
+	}
+	.dropdown a {
+		font-size: 18px;
+	}
+	.dropdown-content {
+		min-width: 200px;
+	}
+	#aboutDubai h1 {
+		margin-left: 0px;
+	}
+	#partner h2 {
+		margin-left: 0px;
+	}
+	.partners img {
+		margin-right: 0px;
+		margin-left: 20px;
+		width: 220px;
+	}
+	.pOne p {
+		font-size: 16px;
+		width: 150px;
+		margin-left: 50px;
+	}
+	.pTwo p {
+		font-size: 16px;
+		width: 150px;
+		margin-left: 100px;
+	}
+	.pThree p {
+		font-size: 16px;
+		width: 150px;
+		margin-left: 100px;
+	}
+	#footer p {
+		margin-left: 40px;
+	}
+	.btn {
+		margin: 50px;
+	}
+	#records h1 {
+		margin-left: 0px;
+	}
+	#records h2 {
+		margin-left: 100px
+	}
+	#records video {
+		width: 500px;
+		height: 300px;
+		margin-right: 500px;
+	}
+	#records p {
+		float: left;
+		font-size: 18px;
+		width: 500px;
+		padding-top: 0px;
+		margin-right: 300px;
+		margin-left: 0px;
+	}
+	#activities h1 {
+		margin-left: 25px;
+	}
+	.galleryActivities {
+		width: 150px;
+		margin-left: 35px;
+		margin-right: 0px;
+	}
+	#address h1 {
+		margin-left: 100px;
+		font-size: 40px;
+	}
+	#address p {
+		float: left;
+		line-height: 30px;
+		margin-left: 60px;
+	}
+	#address iframe {
+		width: 700px;
+		margin-left: 100px;
+	}
+	#famousHotels h1 {
+		margin-left: 250px;
+	}
+	#famousHotels p {
+		float: right;
+		width: 420px;
+		margin-right: 20px;
+		margin-left: 10px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	#famousHotels a {
+		margin-bottom: 60px;
+	}
+	#famousHotels img {
+		margin-bottom: 70px;
+	}
+	.burjAlArab h1 {
+		font-size: 42px;
+		margin-left: 0px;
+	}
+	.galleryHotels img {
+		overflow: hidden;
+		height: 300px;
+		width: 800px;
+		margin-left: 0px;
+		margin-bottom: 50px;
+	}
+}
+
+/* tablet racunari */
+@media screen and (min-width:768px) and (max-width:1023px) {
+	.wrapper {
+		width: 60%;
+	}
+	#nav ul li a {
+		font-size: 16px;
+		padding: 60px 5px;
+		line-height: 40px;
+	}
+	#logo img {
+		height: 150px;
+		width: 150px;
+		margin-left: 0px;
+	}
+	.dropbtn .navig {
+		font-size: 16px;
+		padding: 59px 0px;
+	}
+	.dropdown a {
+		font-size: 15px;
+	}
+	.dropdown-content {
+		min-width: 150px;
+	}
+	#aboutDubai h1 {
+		margin-left: 0px;
+	}
+	#partner h2 {
+		margin-left: 0px;
+	}
+	.partners img {
+		margin-right: 0px;
+		margin-left: 0px;
+		width: 150px;
+		margin-bottom: 20px;
+	}
+	.pOne p {
+		font-size: 16px;
+		width: 100px;
+		margin-left: 20px;
+		float: left;
+	}
+	.pTwo p {
+		font-size: 16px;
+		width: 100px;
+		margin-left: 60px;
+		float: left;
+	}
+	.pThree p {
+		font-size: 16px;
+		width: 100px;
+		margin-left: 60px;
+		float: left;
+	}
+	#footer p {
+		margin-left: 20px;
+		width: 300px;
+		margin-top: 40px;
+	}
+	.btn {
+		margin: 20px;
+	}
+	#records h1 {
+		margin-left: 0px;
+		font-size: 32px;
+	}
+	#records h2 {
+		font-size: 22px;
+		margin-left: 50px
+	}
+	#records video {
+		width: 500px;
+		height: 300px;
+	}
+	#records p {
+		float: left;
+		font-size: 16px;
+		width: 500px;
+		margin: 0;
+		padding-top: 0;
+		padding-bottom: 50px;
+	}
+	#activities h1 {
+		margin-left: 25px;
+	}
+	.galleryActivities {
+		width: 150px;
+		margin-left: 40px;
+		margin-right: 20px;
+	}
+	#address h1 {
+		margin-left: 0px;
+		font-size: 28px;
+		width: 130px;
+	}
+	#address p {
+		float: left;
+		line-height: 30px;
+		margin-left: 60px;
+	}
+	#address iframe {
+		width: 500px;
+		height: 500px;
+	}
+	#famousHotels h1 {
+		margin-left: 0px;
+		font-size: 32px;
+	}
+	#famousHotels p {
+		float: left;
+		width: 420px;
+		margin-right: 0px;
+		margin-left: 0px;
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	#famousHotels a {
+		margin-bottom: 30px;
+	}
+	#famousHotels img {
+		margin-bottom: 20px;
+	}
+	.burjAlArab h1 {
+		font-size: 32px;
+		margin-left: 0px;
+	}
+	.galleryHotels img {
+		overflow: hidden;
+		height: 200px;
+		width: 500px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+}
+
+/* mobilni telefoni */
+@media screen and (min-width:330px) and (max-width:767px) {
+	.wrapper {
+		width: 95%;
+	}
+	#headerTop {
+	background: #363636;
+	color: #898989;
+	font-size: 12px;
+	height: 20px;
+	}
+	#headerTopLeft span {
+	margin-right: 10px;
+	}
+	#headerBottom {
+	height: 360px;
+	background: #FFF;
+	}
+	#nav ul {
+		width: 360px;
+	}
+	#nav ul li a {
+		display: block;
+		font-size: 18px;
+		padding: 0px 0px 0px 0px;
+		text-align: center;
+		line-height: 40px;
+		width: 380px;
+	}
+	#logo img {
+		height: 150px;
+		width: 130px;
+		padding: 0;
+		text-align: center;
+		margin-left: 110px;
+	}
+	.dropbtn .navig {
+		width: 375px;
+		font-size: 18px;
+		padding: 0px 0px 0px 0px;
+		text-align: center;
+	}
+	.dropdown a {
+		font-size: 14px;
+	}
+	.dropdown-content {
+		min-width: 100px;
+		margin-left: 240px;
+		margin-top: -30px;
+	}
+	#aboutDubai h1 {
+		margin-left: 0px;
+		font-size: 24px;
+	}
+	#partner h2 {
+		margin-left: 0px;
+		font-size: 24px;
+	}
+	.partners img {
+		margin-right: 0px;
+		margin-left: 10px;
+		width: 100px;
+		margin-bottom: 0px;
+	}
+	.pOne p {
+		font-size: 12px;
+		width: 40px;
+		margin-left: 30px;
+		float: left;
+	}
+	.pTwo p {
+		font-size: 12px;
+		width: 40px;
+		margin-left: 80px;
+		float: left;
+	}
+	.pThree p {
+		font-size: 12px;
+		width: 40px;
+		margin-right: 21px;
+		float: right;
+	}
+	#footer p {
+		margin-left: 20px;
+		width: 300px;
+		margin-top: 40px;
+	}
+	.btn {
+		margin: 40px 20px 10px 20px;
+	}
+	#records h1 {
+		margin-left: 0px;
+		font-size: 32px;
+	}
+	#records h2 {
+		font-size: 22px;
+		margin-left: 0px
+	}
+	#records video {
+		width: 340px;
+		height: 270px;
+	}
+	#records p {
+		float: left;
+		font-size: 16px;
+		width: 340px;
+		margin-right: 50px;
+		padding-top: 0;
+		padding-bottom: 100px;
+	}
+	#activities h1 {
+		margin-left: 0px;
+		font-size: 24px;
+		width: 330px;
+	}
+	.galleryActivities {
+		width: 200px;
+		margin-left: 80px;
+		margin-right: 150px;
+		margin-bottom: 10px;
+	}
+	#address h1 {
+		margin-left: 0px;
+		font-size: 28px;
+		width: 340px;
+	}
+	#address p {
+		font-size: 16px;
+		float: left;
+		line-height: 30px;
+		margin-left: 0px;
+	}
+	#address iframe {
+		width: 300px;
+		height: 300px;
+		margin-left: 20px;
+	}
+	#famousHotels h1 {
+		margin-left: 0px;
+		font-size: 24px;
+		width: 340px;
+	}
+	#famousHotels p {
+		float: left;
+		width: 300px;
+		margin-right: 0px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	#famousHotels a {
+		margin-bottom: 30px;
+	}
+	#famousHotels img {
+		margin-bottom: 10px;
+		width: 300px;
+		margin-left: 20px;
+	}
+	.burjAlArab h1 {
+		font-size: 24px;
+		margin-left: 0px;
+		width: 340px;
+	}
+	.burjAlArab h2 {
+		font-size: 24px;
+		margin-left: 0px;
+		width: 340px;
+	}
+	.galleryHotels img {
+		overflow: hidden;
+		height: 200px;
+		width: 300px;
+		margin-left: 20px;
+		margin-bottom: 0px;
+	}
+}
+
+
+
+
+
